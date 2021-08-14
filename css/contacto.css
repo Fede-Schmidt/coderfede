@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(33, 33, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(250, 249, 249);
+}
+
+.menu a {
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.principal {
+    background-color: rgb(33, 33, 61);
+}
+
+.principal li {
+    list-style: none;
+    display: inline-block;
+}
+
+.contacto h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 25px;
+    padding: 30px;
+    margin: 45px;
+}
+
+.coordinar {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 30px;
+    margin: 45px;
+    padding-bottom: 65px;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+    padding-left: 25px;
+}
+
+fieldset {
+    background-color: steelblue;
+    width: 70%; 
+    text-align: center;
+    padding: 30px;
+    margin: 45px;
+}
+
+input {
+    width: 300px; 
+    height: 40px;
+    transition: all 2s;
+}
+
+input:focus {
+    width: 800px;
+    font-size: 30px;
+}
+
+label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.footer{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 2, 39);
+    text-align: center;
+    padding: 15px;
+}
+
+.footer p {
+    display: inline-block;
+}
+
+html, body, main {
+    width: 100%;
+}
+
+
+.section {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.primer-elemento {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.segundo-elemento {
+    background-color: rgb(94, 255, 0);
+    grid-column-start: 1;
+    grid-row-end: 1;
+}
+
+.tercer-elemento {
+    background-color: rgb(255, 0, 157);
+    grid-column-start: 2;
+    grid-column-end: 2;
+}

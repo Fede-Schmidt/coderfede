@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(28, 28, 70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(250, 249, 249);
+}
+
+.menu a {
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.principal {
+    background-image: linear-gradient(rgb(41, 41, 66), rgb(83, 83, 245));
+    position: relative;
+}
+.principal li {
+    list-style: none;
+    display: inline-block;
+}
+
+.principal span {
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(250, 249, 249); 
+    margin-left: 300px;  
+}
+
+.servicios th {
+    background-color: slategray;
+    border: 1.5px;line-break: loose;
+    font-size: 25px;
+    padding: 30px;  
+    margin: 25px;
+}   
+
+.servicios td {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.servicios {
+    padding: 25px 0;
+    position: relative;
+}
+
+.servicios h1 {
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.servicios h2 {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+    margin-top: 25px;
+    
+}
+
+.servicios p {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+
+}
+
+.servicios__descrip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.servicios__descrip article {
+    padding: 0 25px;
+}
+
+.valores {
+    font-size: 30px;
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(250, 249, 249);  
+    text-align: center;
+    
+}
+
+.valores p {
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(250, 249, 249); 
+    font-size: 30px;
+    text-align: justify;
+    padding: 25px;
+}
+
+.valores__descrip {
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(250, 249, 249); 
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+.portada {
+    position: relative;
+}
+
+.portada img {
+    width: 100%;
+
+}
+
+.portada__titulo h1{
+    color: rgb(172, 172, 172);
+    font-size: 175px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: right;
+    margin-right: 50px;
+    padding: 30px;
+    padding-top: 90px;
+}
+
+.portada__titulo h3 {
+    color: rgb(172, 172, 172);
+    font-size: 85px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    padding-top: 80px;
+}
+
+.portada__titulo p {
+    color: rgb(172, 172, 172);
+    font-size: 50px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.portada__titulo {
+    position: absolute;
+}
+
+.img-logo {
+    width: 250px;
+    height: 250px;
+    padding-left: 25px;
+}
+
+.botones {
+    font-size: 20px;
+    background-color: rgba(136, 3, 3, 0.411);
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    padding: 25px;
+    margin: 25px;
+    border-style:double;
+    transition: all 4s;
+}
+
+.botones:hover {
+    color: red;
+    font-size: 30px;
+}
+
+.footer {
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(6, 6, 92), black);
+    text-align: center;
+    padding: 15px;
+    transition: all 4s;
+}
+
+.footer:hover {
+    color: rgb(0, 26, 255);
+    font-size: 60px;
+}
+
+.footer p {
+    display: inline-block;
+}
+
+.somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+html, body, main {
+    height: 100%;
+}
+
+.gridnovedades {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+
+}
+
+.primer-elemento {
+    background-color: rgb(26, 13, 73);
+    padding: 20px;
+    padding-top: 20px;
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+
+}
+
+.segundo-elemento {
+    background-color: rgb(26, 13, 73);
+    grid-column-start:1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    grid-template-columns: 50px;
+    
+}
+
+.tercer-elemento {
+    background-color: rgb(26, 13, 73);
+    grid-column-start:4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    text-align: center;
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.segundo-elemento h2 {
+    transition: step-start 3s;
+}
+
+.segundo-elemento h2:hover {
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+}
+@media screen and (max-width: 780px) {
+    .portada p {
+        display: none;
+    }
+
+    .portada__titulo h1 {
+        font-size: 25px;
+        color: rgb(19, 19, 102);
+        font-family: 'Gothic A1', sans-serif;
+        text-align: right;
+        margin-right: 5px;
+        padding: 30px;
+    }
+
+    .portada__titulo h3 {
+        display: none;
+    }
+
+    .principal span {
+        display: none;
+    }
+    
+    .img-logo { 
+        width: 75px;
+        height: 75px;
+        padding-left: 5px;
+    }
+
+    .servicios__descrip {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
